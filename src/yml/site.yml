@@ -1,13 +1,12 @@
-name: Jekflix
-title: Jekflix | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by
-  Thiago Rossener.
+name: Ppoflix
+title: Ppoflix | Yongwook Lee
+description: Later equals never.
 tags:
   - blog
-  - template
-  - jekyll
-  - theme
-  - netlify
+  - i4song
+  - ai
+  - math
+  - linear algebra
 show_hero: true
 menu:
   - title: Home
@@ -18,7 +17,7 @@ menu:
     url: /contact
   - title: Feed
     url: /feed.xml
-email: youremail@test.com
+email: i4song.dev@gmail.com
 # See: https://disqus.com/
 disqus_username: disqus_username
 # Contact Form Setting
