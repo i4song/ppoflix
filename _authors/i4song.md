@@ -1,6 +1,6 @@
 ---
 layout: author
-photo: /assets/img/uploads/profile.jpeg
+photo: /assets/img/uploads/profile.png
 name: i4song
 display_name: Yongwook Lee
 position: The One
