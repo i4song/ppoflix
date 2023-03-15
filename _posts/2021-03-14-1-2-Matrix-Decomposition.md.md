@@ -16,7 +16,7 @@ tags:
   - Eigenvalue
   - Eigenvector
   - SVD
-author: mranderson
+author: i4song
 paginate: true
 ---
 > 본 글은 K-MOOC의 [인공지능 수학 고급(Advanced Mathematics for AI)](http://www.kmooc.kr/courses/course-v1:SKKUk+SKKU_60+2023_T1/course/) 강의를 듣고 요약한 글입니다. 
