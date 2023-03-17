@@ -1,5 +1,5 @@
 ---
-date: 2021-03-14T14:48:05.000Z
+date: 2023-03-14T14:48:05.000Z
 layout: post
 title: 1-2. Matrix Decomposition
 katex: True

@@ -1,5 +1,5 @@
 ---
-date: 2021-03-14T20:48:05.000Z
+date: 2023-03-14T20:48:05.000Z
 layout: post
 title: 1-3. SVD-Application
 katex: True

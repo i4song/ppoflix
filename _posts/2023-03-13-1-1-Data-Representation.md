@@ -1,5 +1,5 @@
 ---
-date: 2021-03-13T23:48:05.000Z
+date: 2023-03-13T23:48:05.000Z
 layout: post
 title: 1-1. Data Representation
 katex: True
