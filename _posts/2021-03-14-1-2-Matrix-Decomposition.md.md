@@ -10,7 +10,7 @@ image: >-
   https://velog.velcdn.com/images/dnr6054/post/49ce63dd-d720-47fe-a69b-5ae49528c5cc/image.png
 optimized_image: >-
   https://velog.velcdn.com/images/dnr6054/post/49ce63dd-d720-47fe-a69b-5ae49528c5cc/image.png
-category: blog
+category: math
 tags:
   - 행렬분해
   - Eigenvalue

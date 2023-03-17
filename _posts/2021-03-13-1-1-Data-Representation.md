@@ -10,7 +10,7 @@ image: >-
   https://velog.velcdn.com/images/dnr6054/post/9325aa03-264f-4961-89b7-1b07ab79c9a5/image.png
 optimized_image: >-
   https://velog.velcdn.com/images/dnr6054/post/9325aa03-264f-4961-89b7-1b07ab79c9a5/image.png
-category: blog
+category: math
 tags:
   - 데이터표현법
   - 행렬표현

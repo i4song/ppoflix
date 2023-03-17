@@ -10,7 +10,7 @@ image: >-
   https://velog.velcdn.com/images/dnr6054/post/18dec618-679e-401f-ae84-0363b8d6c558/image.png
 optimized_image: >-
   https://velog.velcdn.com/images/dnr6054/post/18dec618-679e-401f-ae84-0363b8d6c558/image.png
-category: blog
+category: math
 tags:
   - SVD
   - 행렬분해
