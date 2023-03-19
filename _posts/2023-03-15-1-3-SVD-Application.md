@@ -24,17 +24,17 @@ paginate: true
 
 [1-1. Data representation](https://velog.io/@dnr6054/1-1-Data-Representation) 에서 봤던 데이터를 다시 가져오자.
 
-$d_1$: `Romeo` and `Juliet`
-$d_2$: `Juliet` O `happy` `dagger`
-$d_3$: `Romeo` `die`d by `dagger`
-$d_4$: `Live` `free` or `die` that is the `New-Hampshire`'s motto
-$d_5$: Did you know `New-Hampshire` is in New-England
+$$d_1$$: `Romeo` and `Juliet`
+$$d_2$$: `Juliet` O `happy` `dagger`
+$$d_3$$: `Romeo` `die`d by `dagger`
+$$d_4$$: `Live` `free` or `die` that is the `New-Hampshire`'s motto
+$$d_5$$: Did you know `New-Hampshire` is in New-England
 
 자, 여기에서 `die`와 `dagger`에 관련된 문서를 찾으라는 문제가 나왔다면 어떻게 접근할 수 있을까?
 
-$d_2$, $d_3$, $d_4$은 제목에 단어들이 있다. 아마 연관성이 있을 것이다.
-$d_5$는 아무 단어도 없다. 그리고 연관성도 없다.
-$d_1$은 아무 단어도 없다. 하지만..? 사실 로미오와 줄리엣은 `die`와 `dagger`와 연관이 있는 소설의 제목이다.
+$$d_2$$, $$d_3$$, $$d_4$$은 제목에 단어들이 있다. 아마 연관성이 있을 것이다.
+$$d_5$$는 아무 단어도 없다. 그리고 연관성도 없다.
+$$d_1$$은 아무 단어도 없다. 하지만..? 사실 로미오와 줄리엣은 `die`와 `dagger`와 연관이 있는 소설의 제목이다.
 
 이러한 숨은 의미를 발견할 수 있을까?
 
@@ -46,18 +46,18 @@ $d_1$은 아무 단어도 없다. 하지만..? 사실 로미오와 줄리엣은 
 
 | |romeo|juliet|happy|dagger|live|die|free|New-Hampshire|
 |-|-|-|-|-|-|-|-|-|
-|$d_1$|1|1|0|0|0|0|0|0|
-|$d_2$|0|1|1|1|0|0|0|0|
-|$d_3$|1|0|0|1|0|1|0|0|
-|$d_4$|0|0|0|0|1|1|1|1|
-|$d_5$|0|0|0|0|0|0|0|1|
+|$$d_1$$|1|1|0|0|0|0|0|0|
+|$$d_2$$|0|1|1|1|0|0|0|0|
+|$$d_3$$|1|0|0|1|0|1|0|0|
+|$$d_4$$|0|0|0|0|1|1|1|1|
+|$$d_5$$|0|0|0|0|0|0|0|1|
 
 이 행렬을 분해하여 숨은 의미를 찾을 수 있지 않을까?
 
 우리는 [1-2. Matrix Decomposition](https://velog.io/@dnr6054/1-2-Matrix-Decomposition) 에서 여러 분해 기법을 살펴보았고, 해당 행렬은 정사각행렬이 아니기 때문에 마지막으로 다룬 **SVD**가 가능해보인다.
 
 > 잠깐 **SVD**에 대해서 짚고 넘어가자.
-> 주어진 행렬 $A_{M\times N}$를 $A_{M\times N} = U_{M\times M}\Sigma_{M\times N}{V_{N\times N}}^T$ 로 분해하는 것을 `full SVD`라고 부른다. 
+> 주어진 행렬 $$A_{M\times N}$$를 $$A_{M\times N} = U_{M\times M}\Sigma_{M\times N}{V_{N\times N}}^T$$ 로 분해하는 것을 `full SVD`라고 부른다. 
 실제로 이와같이 `full SVD`를 하는 경우는 드물며 아래 그림들과 같이 `reduced SVD`를 하는게 일반적이다.
 > - `thin SVD`
 > ![](https://velog.velcdn.com/images/dnr6054/post/20fa02c2-6daf-4c9e-8817-e35b821ed649/image.png)
@@ -103,8 +103,8 @@ V = \begin{bmatrix}
 \end{matrix}
 $$
 
-여기에서 본래의 가중치(특이값, Singular value)를 각각 $U$와 $V$에 곱해주면 각각의 문서, 단어들의 벡터를 구해줄 수 있다.
-(Document vector: $U\Sigma$, Word vector: $\Sigma V^T$)
+여기에서 본래의 가중치(특이값, Singular value)를 각각 $$U$$와 $$V$$에 곱해주면 각각의 문서, 단어들의 벡터를 구해줄 수 있다.
+(Document vector: $$U\Sigma$$, Word vector: $$\Sigma V^T$$)
 
 $$
 d_1 = \begin{bmatrix}
@@ -147,6 +147,6 @@ $$
 
 ![](https://velog.velcdn.com/images/dnr6054/post/91cb3988-2fc3-4c89-9b28-aa8f6aeac74e/image.png)
 
-그 결과 겉으로는 둘 다 아무 단어도 포함되어 있지 않은 $d_1$과 $d_5$였지만, 현재는 $d_1$이 더 좁은 각도를 나타내는 것을 볼 수 있다.
+그 결과 겉으로는 둘 다 아무 단어도 포함되어 있지 않은 $$d_1$$과 $$d_5$$였지만, 현재는 $$d_1$$이 더 좁은 각도를 나타내는 것을 볼 수 있다.
 
 이런 식의 분석법을 **Latent Semantic Indexing**이라고 한다.

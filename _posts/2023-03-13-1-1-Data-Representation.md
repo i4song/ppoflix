@@ -22,26 +22,26 @@ paginate: true
 ## Question
 > 다음과 같은 **문서**가 있다. 이를 어떻게 우리가 쓰기 쉽게 **표현**할 수 있을까?
 
-$d_1$: `Romeo` and `Juliet`
-$d_2$: `Juliet` O `happy` `dagger`
-$d_3$: `Romeo` `die`d by `dagger`
-$d_4$: `Live` `free` or `die` that is the `New-Hampshire`'s motto
-$d_5$: Did you know `New-Hampshire` is in New-England
+$$d_1$$: `Romeo` and `Juliet`
+$$d_2$$: `Juliet` O `happy` `dagger`
+$$d_3$$: `Romeo` `die`d by `dagger`
+$$d_4$$: `Live` `free` or `die` that is the `New-Hampshire`'s motto
+$$d_5$$: Did you know `New-Hampshire` is in New-England
 
 ## Answer
 
 답은 다음과 같은 **행렬**을 만드는 것이다.
 `행`: 문서
 `열`: 단어
-$A_{ij}$: $j$번째 단어가 $i$번째 문서에 등장한 **횟수**
+$$A_{ij}$$: $$j$$번째 단어가 $$i$$번째 문서에 등장한 **횟수**
 
 | |romeo|juliet|happy|dagger|live|die|free|New-Hampshire|
 |-|-|-|-|-|-|-|-|-|
-|$d_1$|1|1|0|0|0|0|0|0|
-|$d_2$|0|1|1|1|0|0|0|0|
-|$d_3$|1|0|0|1|0|1|0|0|
-|$d_4$|0|0|0|0|1|1|1|1|
-|$d_5$|0|0|0|0|0|0|0|1|
+|$$d_1$$|1|1|0|0|0|0|0|0|
+|$$d_2$$|0|1|1|1|0|0|0|0|
+|$$d_3$$|1|0|0|1|0|1|0|0|
+|$$d_4$$|0|0|0|0|1|1|1|1|
+|$$d_5$$|0|0|0|0|0|0|0|1|
 
 앞으로 우리는 이러한 **데이터**들을 다룰 것이다.
 
