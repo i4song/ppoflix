@@ -24,11 +24,11 @@ paginate: true
 
 [1-1. Data representation](https://velog.io/@dnr6054/1-1-Data-Representation) 에서 봤던 데이터를 다시 가져오자.
 
-$$d_1$$: `Romeo` and `Juliet`
-$$d_2$$: `Juliet` O `happy` `dagger`
-$$d_3$$: `Romeo` `die`d by `dagger`
-$$d_4$$: `Live` `free` or `die` that is the `New-Hampshire`'s motto
-$$d_5$$: Did you know `New-Hampshire` is in New-England
+- $$d_1$$: `Romeo` and `Juliet`
+- $$d_2$$: `Juliet` O `happy` `dagger`
+- $$d_3$$: `Romeo` `die`d by `dagger`
+- $$d_4$$: `Live` `free` or `die` that is the `New-Hampshire`'s motto
+- $$d_5$$: Did you know `New-Hampshire` is in New-England
 
 자, 여기에서 `die`와 `dagger`에 관련된 문서를 찾으라는 문제가 나왔다면 어떻게 접근할 수 있을까?
 

@@ -22,11 +22,11 @@ paginate: true
 ## Question
 > 다음과 같은 **문서**가 있다. 이를 어떻게 우리가 쓰기 쉽게 **표현**할 수 있을까?
 
-$$d_1$$: `Romeo` and `Juliet`
-$$d_2$$: `Juliet` O `happy` `dagger`
-$$d_3$$: `Romeo` `die`d by `dagger`
-$$d_4$$: `Live` `free` or `die` that is the `New-Hampshire`'s motto
-$$d_5$$: Did you know `New-Hampshire` is in New-England
+- $$d_1$$: `Romeo` and `Juliet`
+- $$d_2$$: `Juliet` O `happy` `dagger`
+- $$d_3$$: `Romeo` `die`d by `dagger`
+- $$d_4$$: `Live` `free` or `die` that is the `New-Hampshire`'s motto
+- $$d_5$$: Did you know `New-Hampshire` is in New-England
 
 ## Answer
 

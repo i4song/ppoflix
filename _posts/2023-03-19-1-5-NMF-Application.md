@@ -23,11 +23,11 @@ paginate: true
 
 ## Problem
 
-$$d_1$$: `Romeo` and `Juliet`
-$$d_2$$: `Juliet` O `happy` `dagger`
-$$d_3$$: `Romeo` `die`d by `dagger`
-$$d_4$$: `Live` `free` or `die` that is the `New-Hampshire`'s motto
-$$d_5$$: Did you know `New-Hampshire` is in New-England
+- $$d_1$$: `Romeo` and `Juliet`
+- $$d_2$$: `Juliet` O `happy` `dagger`
+- $$d_3$$: `Romeo` `die`d by `dagger`
+- $$d_4$$: `Live` `free` or `die` that is the `New-Hampshire`'s motto
+- $$d_5$$: Did you know `New-Hampshire` is in New-England
 
 NMF를 통해서 문서들 간의 숨어있는 의미를 찾아보자.
 
@@ -82,8 +82,8 @@ $$
 
 ### First cluster
 
-$$w_1 = [0.083, 0.000, \ldots, 1.285]^T$$
-$$h_1 = [0.000, 0.000, 0.182, 0.892, 0.259]$$
+- $$w_1 = [0.083, 0.000, \ldots, 1.285]^T$$
+- $$h_1 = [0.000, 0.000, 0.182, 0.892, 0.259]$$
 
 $$w_1$$에서 가장 숫자가 큰 세 단어는 **new-hampshire**, **die**, **live** 이며
 $$h_1$$에서 해당 문서들은 $$d_4$$, $$d_5$$, $$d_3$$ 이다.
